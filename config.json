@@ -1,0 +1,55 @@
+{
+    "Version": "1",
+    "ReleaseNotes": "Nova atualização",
+    "Sms": "https://painel.unyserve.com.br/4g/sms.php",
+    "UrlUpdate": "https://painel.unyserve.com.b/4g/update.php",
+    "logoonline": "https://i.imgur.com/rHfxP0A.png",
+    "fundoonline": "https://images.hdqwalls.com/download/2020-joker-always-smile-4k-vr-1080x1920.jpg",
+    "EmailFeedback": "contato@unyserve.com.br",
+    "UrlContato": "https://wa.me/5521980418958?text=ol%C3%A1%2C+preciso+de+suporte%2C+vim+pelo+aplicativo.",
+    "UrlTermos": "https://wa.me/5521980418958?text=ol%C3%A1%2C+preciso+de+suporte%2C+vim+pelo+aplicativo.",
+    "CheckUser": "true",
+    "Udp": [
+        {
+            "Porta": "7300"
+        },
+        {
+            "Porta": "7200"
+        }
+    ],
+    "Servers": [
+        {
+            "Name": "UNYSERVE[01]",
+            "TYPE": "premium",
+            "FLAG": "br.png",
+            "ServerIP": "144.22.201.55",
+            "CheckUser": "http://144.22.201.55:5454/checkUser",
+            "ServerPort": "22",
+            "SSLPort": "443",
+            "USER": "",
+            "PASS": ""
+        }
+    ],
+    "Networks": [
+        {
+            "Name": "VIVO | [FRONT]",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: dbxmmen45so6j.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "108.158.122.48",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "TIM | [BETA]",
+            "FLAG": "tim",
+            "Payload": "CONNECT / HTTP/1.9[crlf]host: c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: brasil.unyserve.com.br[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: ",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.16.51.111",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        }
+    ]
+}
